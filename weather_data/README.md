@@ -9,8 +9,8 @@ weather = defaultdict(list)
 for i in range(df.shape[0]):
   lat = df['latitude'][i]
   long_ = df['longitude'][i]
-  date = df1['event_date'][i][:10]
-  api_Key = 'Visual Crossing Weather API Key'
+  date = df['event_date'][i][:10]
+  api_key = 'Visual Crossing Weather API Key'
 
   response = requests.get("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{},{}/{}?unitGroup=metric&key={}&include=obs".format(lat,long_,date,api_key))
   res = response.json()
