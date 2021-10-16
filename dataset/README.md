@@ -2,22 +2,32 @@ Triet's Notes
 
 ```python
 import requests
+import numpy as np
 from collections import defaultdict
 
 weather = defaultdict(list)
 
-for i in range(df.shape[0]):
+i1 = np.arange(3971,7502)
+i2 = np.arange(7503,11034)
+api_key = 'Visual Crossing Weather API Key'
+
+for i in i1: # i1 or i2
   lat = df['latitude'][i]
   long_ = df['longitude'][i]
   date = df['event_date'][i][:10]
-  api_key = 'Visual Crossing Weather API Key'
-
+  
   response = requests.get("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{},{}/{}?unitGroup=metric&key={}&include=obs".format(lat,long_,date,api_key))
   res = response.json()
   weather_data = res['days'][0]
 
   for key, val in weather_data.items():
       weather[key].append(val)
+
+  weather.pop('source')
+  weather_df = pd.DataFrame(weather)
+  
+  weather_df.insert(loc=0, column='event_id', value = df['event_id'][i1[0]:i1[-1]+1)
+  weather_df.to_csv('weather_{}-{}.csv'.format(i1[0], i1[-1]+1),index=False)
 ```
 
 ```
