@@ -8,7 +8,7 @@ from collections import defaultdict
 weather = defaultdict(list)
 
 i1 = np.arange(3971,7502)
-i2 = np.arange(7503,11034)
+i2 = np.arange(7502,11033)
 api_key = 'Visual Crossing Weather API Key'
 
 for i in i1: # i1 or i2
