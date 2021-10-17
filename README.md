@@ -17,3 +17,5 @@ STT | Họ tên | MSSV | Github
 
 ## Đề tài đồ án
 **PHÂN TÍCH VÀ DỰ ĐOÁN ẢNH HƯỞNG CỦA CÁC YẾU TỐ TỰ NHIÊN ĐẾN TÌNH TRẠNG SẠT LỞ ĐẤT**
+## Deepnote:
+https://deepnote.com/project/DS105-Landslide-Project-oxJ7XQQkSP-I1uH0klc3wQ
