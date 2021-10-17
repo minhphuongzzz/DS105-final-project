@@ -4,5 +4,8 @@
 
 
 # Preprocessing steps:
-## 1. Preprocessing Country Name and Datetime: GLC_preprocessed_1.csv
-## 2. Cut down unnecessary attributes and merge Lat-Long: GLC_preprocessed_2.csv
+## 1. Preprocessing Country Name and Datetime: 
+* GLC_preprocessed_1.csv
+## 2. Cut down unnecessary attributes and merge Lat-Long: 
+* GLC_preprocessed_2.csv
+## 3. Updating...
