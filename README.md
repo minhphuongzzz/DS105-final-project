@@ -21,8 +21,12 @@ STT | Họ tên | MSSV | Github
 
 Source code: [here](https://github.com/minhphuongzzz/DS105-final-project/blob/main/src/data_collection.ipynb)
 
-- Bộ dữ liệu gốc: *Global Landslide Catalog* (Nguồn: data.nasa.gov/Earth-Science/Global-Landslide-Catalog-Export/dd9e-wu2v).
+- Bộ dữ liệu gốc: *Global Landslide Catalog* 
+
+  Nguồn: [here](https://data.nasa.gov/Earth-Science/Global-Landslide-Catalog-Export/dd9e-wu2v)
+
 - Dữ liệu thu thập thêm:
+
   -  [Thời tiết](https://www.visualcrossing.com/weather-api)
   -  [Độ cao](https://developers.airmap.com/docs/elevation-api)
   -  [Châu lục](https://pypi.org/project/pycountry-convert/)
@@ -47,15 +51,15 @@ Các bước phân tích thăm dò bao gồm: thống kê mô tả, phân tích 
 
 Source code: [here](https://github.com/minhphuongzzz/DS105-final-project/blob/main/src/model_development.ipynb)
 
-##### Feature selection
+#### Feature selection
 
 Các thuộc tính được lựa chọn để đưa vào mô hình dựa vào kết quả sau khi phân tích thăm dò, kết hợp với hai phương pháp thống kê là *One way ANOVA* và *Chi-square test*.
 
-##### Feature engineering
+#### Feature engineering
 
 Các kỹ thuât để biến đổi dữ liệu trước khi đưa vào mô hình bao gồm: kết hợp các nhóm thuộc tính có độ tương quan cao, kết hợp và mã hóa các cột chứa thông tin mô tả (text description), mã hóa one-hot cho các thuộc tính phân loại, và feature scaling.
 
-##### Model development
+#### Model development
 
 Bài toán: dự đoán quy mô sạt lở đất (*landslide size*).
 
@@ -67,4 +71,4 @@ Mô hình phân lớp: Logistic Regression, Support Vector Machine, Random  Fore
 
 Sau khi thử nghiệm và đánh giá, chúng tôi tinh chỉnh siêu tham số cho mô hình đang có được kết quả tốt nhất và thu được kết quả sau:
 
-![image-20211227145939966](C:\Users\MINHPHUONG\AppData\Roaming\Typora\typora-user-images\image-20211227145939966.png)
+![img](https://lh3.googleusercontent.com/_ur1jZhgcSfCbiETV91lvRAer_DoKhItTmsPIXSQkiYC4Kq8GLsHWQdoWLsHBTJ8WknQ_PlOsazzeAIfYqaIcfjCoPPRWfb53DZD7tT_f3kdKUbnddhqFsw1kGl7v8ZNEHPTJX6Hru-t)
