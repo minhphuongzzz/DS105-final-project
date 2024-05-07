@@ -1,4 +1,4 @@
-# XÂY DỰNG MÔ HÌNH DỰ ĐOÁN NGUYÊN NHÂN GÂY SẠT LỞ ĐẤT.
+# XÂY DỰNG MÔ HÌNH DỰ ĐOÁN QUY MÔ SẠT LỞ ĐẤT.
 
 ## Thông tin môn học
 * **Môn học:** Phân tích và trực quan dữ liệu .
