@@ -11,7 +11,7 @@ STT | Họ tên | MSSV | Github
 --- | -------|------|--------
 1 | Nguyễn Thị Minh Phương | 19522065 | https://github.com/minhphuongzzz
 2 | Chu Hà Thảo Ngân | 19521882 | https://github.com/thaongan251
-3 | Thái Minh Triết | 19522397 | https://github.com/minhtriet2507
+3 | Thái Minh Triết | 19522397 | https://github.com/triet2397
 
 ### PIPELINE
 
